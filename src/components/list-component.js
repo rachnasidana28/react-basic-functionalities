@@ -10,7 +10,7 @@ export default function ListComponent(props){
     })
 
     return(
-      <ul>
+      <ul className="component2">
       {listItems}
       </ul>
     )

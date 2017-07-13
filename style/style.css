@@ -1,0 +1,9 @@
+.solidBorder{
+  border:1px solid black;
+  margin: 10px;
+}
+
+.dashedBorder{
+  border:1px dashed black;
+  margin: 10px;
+}
