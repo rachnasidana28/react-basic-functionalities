@@ -24,8 +24,8 @@ export default class NameForm extends React.Component{
       <div className="solidBorder" onSubmit={this.onFormSubmit}>
         <form >
           <label>
-            <h1>Name:</h1>
-            <input type="text" value={this.state.inputValue} onChange={this.onNameChange}/>
+            <h3>Name:&nbsp;
+            <input type="text" value={this.state.inputValue} onChange={this.onNameChange}/></h3>
           </label>
           <input className ="btn btn-primary solidBorder" type="submit" value="submit" />
         </form>

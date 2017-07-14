@@ -22,7 +22,7 @@ export default class DropDownForm extends Component{
       <div className="dashedBorder">
         <form onSubmit={this.onFormSubmit}>
           <label>
-          Please select a fruit:
+          <h3>Please select a fruit:&nbsp; &nbsp; 
             <select value={this.state.selectedFruit} onChange={this.onDropDownChange}>
               <option value='mango'> Mango</option>
               <option value='orange'> Orange</option>
@@ -30,7 +30,7 @@ export default class DropDownForm extends Component{
               <option value='watermelon'> Watermelon</option>
               <option value='guava'> Guava</option>
             </select>
-            <input type="submit" value="submit" className="btn btn-primary solidBorder"/>
+            <input type="submit" value="submit" className="btn btn-primary solidBorder"/></h3>
           </label>
        </form>
       </div>
